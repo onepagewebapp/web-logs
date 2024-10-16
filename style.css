@@ -1,0 +1,147 @@
+/* Custom Styles */
+/*
+.navbar-lightgreen {
+    background-color: lightgreen;
+}
+
+.navbar-lightgreen .navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-lightgreen .navbar-nav .nav-link:hover,
+.navbar-lightgreen .navbar-nav .nav-link:focus {
+    color: #fff;
+    background-color: #28a745;
+}
+*/
+
+/* Full height image slider */
+.header {
+height: 100vh;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+animation: bgChange 10s infinite;
+}
+
+h1 {
+    letter-spacing: 3px;
+}
+
+/* Keyframes for image changing effect */
+@keyframes bgChange {
+0% { background-image: url('https://picsum.photos/id/0/367/267'); }
+33% { background-image: url('https://picsum.photos/id/1/367/267'); }
+66% { background-image: url('https://picsum.photos/id/2/367/267'); }
+100% { background-image: url('https://picsum.photos/id/3/367/267'); }
+}
+
+/*About us*/
+.img-fluid {
+border-radius: 15px; 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+/* Services section hover effect */
+.service-item {
+text-align: center;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+transform: translateY(-10px);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.service-item a {
+text-decoration: none;
+color: inherit;
+}
+
+.service-item a:hover {
+text-decoration: none;
+color: #007bff;
+}
+
+/* Service image styling */
+.service-img {
+    object-fit: cover;
+    border-radius: 8px;
+}
+#services h2 {
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+
+/* Footer Styling */
+.footer {
+    background-color: #141516;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+}
+
+.footer h2 {
+    margin-bottom: 10px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.footer .social-icons a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.footer .nav-icons a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.footer .nav-icons a:hover {
+    color: #007bff;
+}
+.footer .social-icons a:hover {
+    color: #007bff;
+}
+
+/* Custom Styles for Oval Links and Buttons */
+.rounded-pill-link {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #e8b938;
+    color: rgb(15, 14, 14);
+    text-decoration: none;
+    display: inline-block;
+    font: 1em sans-serif;
+}
+
+.rounded-pill-link:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px; /* Add space between elements */
+}
+
+/* Initial hidden state */
+.animated {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-out, transform 0.7s ease-out;
+}
+
+/* Visible state */
+.animated.visible {
+    opacity: 1;
+    transform: translateY(0);
+}

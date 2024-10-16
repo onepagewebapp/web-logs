@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Blog by Roc</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+
+<body>
+
+    <!-- Header Section with Changing Background -->
+    <header class="header d-flex align-items-center justify-content-center text-center text-white">
+        <div class="container">
+            <h1>Welcome to my Blog</h1><br>
+            <p>Anything and everything...</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </header><br>
+
+
+    <!--Blog Posts-->
+    <div id="blog" class="container mt-4">
+        <div class="row">
+            <!-- Blog Entries -->
+            <div class="col-md-8" id="blog-posts">
+                <h2 class="mb-4">Latest Blog Posts</h2>
+            </div>
+            
+            <!-- Sidebar -->
+            <div class="col-md-4">
+                <div class="card">
+                    <h5 class="card-header">Categories</h5>
+                    <div class="card-body">
+                        <ul class="list-group" id="blog-list">
+                            <!-- Blog links will be inserted here -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!--About us section-->
+    <div id="about" class="container mt-5 animated">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">About Us</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna a nisi fermentum mollis. Sed convallis libero non fermentum auctor.</p>
+                        <p class="card-text">Praesent nec diam sed lacus dapibus rhoncus. Nullam cursus augue vel bibendum suscipit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="https://images.pexels.com/photos/884788/pexels-photo-884788.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Placeholder Image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Services Section -->
+    <section id="services" class="my-5">
+        <h2>Our Services</h2><br>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+            <div class="service-item">
+                <a href="#service1">
+                <img src="https://picsum.photos/200" alt="Service 1" class="service-img">
+                <h5 class="mt-2">Service 1</h5>
+                <p>Brief description of Service 1.</p>
+                </a>
+            </div>
+            </div>
+            <div class="col-md-4 mb-4">
+            <div class="service-item">
+                <a href="#service2">
+                <img src="https://picsum.photos/200" alt="Service 2" class="service-img">
+                <h5 class="mt-2">Service 2</h5>
+                <p>Brief description of Service 2.</p>
+                </a>
+            </div>
+            </div>
+            <div class="col-md-4 mb-4">
+            <div class="service-item">
+                <a href="#service3">
+                <img src="https://picsum.photos/200" alt="Service 3" class="service-img">
+                <h5 class="mt-2">Service 3</h5>
+                <p>Brief description of Service 3.</p>
+                </a>
+            </div>
+            </div>
+        </div>
+        </section>
+    </div>
+
+
+    <!-- Footer Section -->
+    <footer id="contact" class="footer mt-5">
+        <h2>Let's work together!</h2>
+
+        <!-- Align Profile Link and Send Message Button Horizontally -->
+        <div class="footer-flex">
+            <!-- Oval-shaped link for View Profile -->
+            <a href="https://example.com/profile" class="rounded-pill-link">
+                <i class="bi bi-person-circle"></i> View Profile
+            </a>
+
+            <!-- Oval-shaped button for Send Message -->
+            <button class="send-message-btn btn btn-danger rounded-pill" data-bs-toggle="modal" data-bs-target="#sendMessageModal">
+                Send Message
+            </button>
+        </div>
+
+        <div class="social-icons mt-3">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+
+        <div class="nav-icons mt-3">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#blog">Blog</a>
+        </div>
+    </footer>
+
+    <!-- Send Message Modal -->
+    <div class="modal fade" id="sendMessageModal" tabindex="-1" aria-labelledby="sendMessageModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="sendMessageModalLabel">Send Message</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3" required></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send Message</button>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
